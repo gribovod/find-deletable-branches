@@ -1,5 +1,9 @@
 # find-deletable-branches
-Finds Git branches that have been merged into a specified main branch.
+
+This script lists all local or remote branches that have already been merged into the main branch (e.g., 'master' or 'main'). It displays the branch name, the date it was merged, and the merge commit ID.
+The output is sorted by merge date, with the most recent merges appearing first.
+The results are displayed on the screen and also saved to a file named 'deletable_branches_report.txt'.
+This helps identify branches that are safe to delete.
 
 # How to use?
 1. Git must be installed on your computer
